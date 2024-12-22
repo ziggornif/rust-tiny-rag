@@ -1,0 +1,9 @@
+[package]
+name = "rust-tiny-rag"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ollama-rs = {version = "0.2.1", features = ["stream", "chat-history"]}
+tokio = { version = "1", features = ["macros"] }
+anyhow = "1.0.94"
